@@ -83,7 +83,7 @@ public class SleepyHead {
 		boolean isSquare = true;	
 		// Now ask the user what shape to draw. Based on their answer, set the isSquare variable
 		
-		String whatShape = JOptionPane.showInputDialog(null,"what shape do you want to draw (choose square");
+		String whatShape = JOptionPane.showInputDialog(null,"what shape do you want to draw (choose square)");
 		isSquare = whatShape.equalsIgnoreCase("square");
 		// Now you MUST use the && operator to join the booleans for this code. 
 		// Ask your teacher if you are not sure how
