@@ -5,7 +5,7 @@ public class StringMethods {
 	public static void main(String[] args) {
 		
 		// 1. Create a String variable and initialize it to contain a minimum of 3 characters
-		String uhh = "idksadfjk";
+		String uhh = "kidksadfjkkkkkkk";
 		// 2. Print the 3rd char of your String to the console.
 		//    HINT: .charAt
 		System.out.println(uhh.charAt(2));
@@ -31,7 +31,8 @@ public class StringMethods {
 			
 		char index = uhh.charAt(a);
 		if (index==('k')) {
-		System.out.println("k is at index" +index);
+			int index2 = a;
+		System.out.println("k is at index_" + index2);
 			}
 		}	
 	}
